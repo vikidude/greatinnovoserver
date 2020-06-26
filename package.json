@@ -1,0 +1,53 @@
+{
+  "name": "greatinnovoserver",
+  "version": "1.0.0",
+  "description": "Server For the greatinnovo task",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "F2B"
+  ],
+  "author": "Shinelogics",
+  "license": "ISC",
+  "dependencies": {
+    "anymatch": "^2.0.0",
+    "array-flatten": "^2.1.2",
+    "backup-mongodb": "^0.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "braces": "^2.3.2",
+    "bunyan": "^1.8.12",
+    "consolidate": "^0.15.1",
+    "cors": "^2.8.5",
+    "cron": "^1.7.1",
+    "csv-express": "^1.2.2",
+    "dateformat": "^3.0.3",
+    "debug": "^4.1.1",
+    "ejs": "^3.0.1",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.4",
+    "fast-csv": "^2.4.1",
+    "fs": "0.0.1-security",
+    "json2csv": "^3.11.5",
+    "jsonwebtoken": "^8.5.0",
+    "micromatch": "^3.1.10",
+    "mongoose": "^5.4.17",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-double": "0.0.1",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "node-datetime": "^2.1.2",
+    "nodemailer": "^6.4.2",
+    "nodemon": "^1.18.10",
+    "pdfmake": "^0.1.54",
+    "request": "^2.88.0",
+    "semver": "^6.0.0",
+    "swagger-jsdoc": "^3.2.9",
+    "to-regex": "^3.0.2",
+    "written-number": "^0.9.1"
+  }
+}
